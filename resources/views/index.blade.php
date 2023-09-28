@@ -19,7 +19,7 @@
  </li>
             <li class="nav-item">
                 <!-- Ruta para listar -->
-                <a class="nav-link" href="{{ route('listarClientes') }}" target="_blank">Listar</a>
+                <a class="nav-link" href="{{ route('listar') }}" target="_blank">Listar</a>
             </li>
         </ul>
     </div>

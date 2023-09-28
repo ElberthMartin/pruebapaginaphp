@@ -36,10 +36,12 @@ class ClienteController extends Controller
 
         return "Cliente registrado exitosamente.";
     }
-    public function listarClientes()
+    public function listar()
     {
-        $clientes = Cliente::all(); // Recupera todos los clientes desde la base de datos
-        return view('listar', ['clientes' => $clientes]); // Cargar la vista listar.blade.php
+        $clientes = Cliente::all(); // Obtener todos los clientes
+
+        return view('listar', ['clientes' => $clientes]);
     }
 }
+
 

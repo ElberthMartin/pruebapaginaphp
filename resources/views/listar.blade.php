@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lista de Clientes</title>
-    <!-- Agregar enlaces a CSS si es necesario -->
+    <title>Bienvenido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Lista de Clientes</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Edad</th>
-                <th>Producto</th>
-                <th>Precio</th>
-                <th>DNI</th>
-                <th>Teléfono</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Aquí se mostrarán los datos de los clientes -->
-            @foreach($clientes as $cliente)
-            <tr>
-                <td>{{ $cliente->nombre }}</td>
-                <td>{{ $cliente->apellido }}</td>
-                <td>{{ $cliente->edad }}</td>
-                <td>{{ $cliente->producto }}</td>
-                <td>{{ $cliente->precio }}</td>
-                <td>{{ $cliente->dni }}</td>
-                <td>{{ $cliente->telefono }}</td>
-            </tr>
-            @endforeach
-        </tbody>
-    </table>
+    <div class="container">
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <p>Gracias por visitar nuestra página. Esperamos que encuentres la información que buscas y disfrutes de tu estancia aquí.</p>
+        <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en ponerte en contacto con nosotros.</p>
+        <a href="#">Leer más</a>
+    </div>
 </body>
 </html>
+
 
