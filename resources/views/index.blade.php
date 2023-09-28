@@ -15,8 +15,8 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <!-- Ruta para registrarse -->
-                <a class="nav-link" href="{{ route('showForm') }}" target="_blank">Registrarse</a>
-            </li>
+                <a class="nav-link" href="{{ route('showForm') }}">Registrarse</a>
+ </li>
             <li class="nav-item">
                 <!-- Ruta para listar -->
                 <a class="nav-link" href="{{ route('listarClientes') }}" target="_blank">Listar</a>
@@ -24,6 +24,7 @@
         </ul>
     </div>
 </nav>
+
 
 
     <!-- Contenido principal -->

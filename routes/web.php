@@ -15,5 +15,4 @@ Route::get('/registro', [ClienteController::class, 'showForm'])->name('showForm'
 // Ruta para procesar el formulario de registro
 Route::post('/registrar', [ClienteController::class, 'register'])->name('registrar');
 
-// Ruta para listar clientes
 Route::get('/listar', [ClienteController::class, 'listarClientes'])->name('listarClientes');
