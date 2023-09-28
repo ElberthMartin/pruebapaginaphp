@@ -36,5 +36,6 @@ class ClienteController extends Controller
 
         return "Cliente registrado exitosamente.";
     }
+    
 }
 
